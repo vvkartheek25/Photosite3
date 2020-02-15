@@ -1,0 +1,20 @@
+<table>
+  <h1>Photosite</h1>
+  <h2>There are 6 Users</h2>
+  <table>
+    <body bgcolor="#add8e6">
+    </body>
+    <tr>
+    <td width="20%"><b>Users</b></td>
+    <td width="20%"><b>FirstName</b></td>
+    <td width="20%"><b>LastName</b></td>
+  </tr>
+    <% for user in @users %>
+  <tr>
+        <td><%=  user.id   %></td>
+        <td><%= link_to user.first_name, {:action => "index", :controller => "photos", :id => user.id} %></td>
+        <td><%=  user.last_name  %></td>
+  </tr>
+  <%  end %>>
+  </table>
+</table>
