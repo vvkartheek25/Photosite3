@@ -1,24 +1,19 @@
-# README
+Name: Veerabhadra Kartheek Vatti
+Netid: rb6667
+Course: CS651- Web Systems
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Project R1-Photosite
 
-Things you may want to cover:
+The main purpose of this project is to create a website to displaypictures and comments 
+of a few users. The implementation is done through Ruby on Rail 
+on RubyMine IDE with Sqlite3 Database.
 
-* Ruby version
+Models - User, Photos, Comments
+Controller - User, Photos
+HTML Pages- user/index.html.erb , photo/index.html.erb
+Database - load_data.rb
 
-* System dependencies
+Status - Successfully completed the project without any issues
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+http://127.0.0.1:3000/user/index
+http://127.0.0.1:3000/photos/index?id=4
